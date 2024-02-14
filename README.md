@@ -20,5 +20,5 @@ rsync -av --del aleph.gutenberg.org::gutenberg-epub aleph.gutenberg.org --includ
 Convert to JSONL
 
 ```
-python3 gutenberg_to_jsonl.py pg_catalog.csv.gz aleph.gutenberg.org > gutenberg.jsonl
+python3 gutenberg_to_jsonl.py pg_catalog.csv aleph.gutenberg.org > gutenberg.jsonl
 ```

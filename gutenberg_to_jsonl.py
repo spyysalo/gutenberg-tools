@@ -16,7 +16,7 @@
 #
 # And then call this script with
 #
-#     python3 gutenberg_to_jsonl.py pg_catalog.csv.gz aleph.gutenberg.org
+#     python3 gutenberg_to_jsonl.py pg_catalog.csv aleph.gutenberg.org
 
 import sys
 import os
